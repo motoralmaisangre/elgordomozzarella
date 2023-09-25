@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.container{background-color: rgb(86, 87, 85);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  background-color: red;
+  color: #61dafb;
+}
+.redes i.fa-instagram, .redes i.fa-facebook {
+  font-size: 2em;
+  color: #f9f9fa;
+  padding: 10px;
+  animation: icopiz infinite 0s linear;
+  
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    width:90px;
+    height: 90px;
+    animation: icopiz infinite 20s linear;
+    
+  }
+}
+@keyframes icopiz {
+  from {
+    transform: rotatey(0deg);
+  }
+  to {
+    transform: rotatey(360deg);
+  }
+}
